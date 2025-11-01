@@ -4,12 +4,6 @@
   # Publish the root directory
   publish = "."
 
-# Ensure index.html is served correctly
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
-
 # Headers for better security and performance
 [[headers]]
   for = "/*"
