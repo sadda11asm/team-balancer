@@ -1,0 +1,4 @@
+# Netlify configuration for static HTML site
+[build]
+  publish = "."
+
